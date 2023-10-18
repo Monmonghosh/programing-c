@@ -1,10 +1,10 @@
-
 #include<stdio.h>
 int main()
 {
-    int a,b,c,d;
-    printf("Enter the values of A,B and C:\n");
-    scanf("%d%d%d",&a,&b,&c);
-    d=(b*b)-(4*a*c);
-    printf("The value of Discriminant is:%d\n",d);
+    float KB;
+    printf("Enter the size in Kilo Bytes:\n");
+    scanf("%f",&KB);
+    printf("Size in Mega Bytes:%f\n",KB*0.001);
+    printf("Size in Giga Bytes:%f\n",KB*0.000001);
+    printf("Size in Tera Bytes:%f\n",KB*0.000000001);
 }
