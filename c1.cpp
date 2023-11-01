@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float KB;
-    printf("Enter the size in Kilo Bytes:\n");
-    scanf("%f",&KB);
-    printf("Size in Mega Bytes:%f\n",KB*0.001);
-    printf("Size in Giga Bytes:%f\n",KB*0.000001);
-    printf("Size in Tera Bytes:%f\n",KB*0.000000001);
+    int a=10;
+    printf("%d\n",a);
+    printf("ENTER THE NEW VALUE OF A:\n");
+    scanf("%d",&a);
+    printf("TEN NEW VALUE OF A: %d",a);
 }
